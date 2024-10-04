@@ -380,6 +380,7 @@ footer .div-icon i:hover {
     border: solid 5px #000000;
     border-image:5px;
     }
+    
 
     .section {
         padding: min(10vh, 5rem);
@@ -425,7 +426,7 @@ footer .div-icon i:hover {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 554px) {
     header {
         padding: min(5vh, 2rem);
     }
@@ -441,6 +442,9 @@ footer .div-icon i:hover {
     header button {
         font-size: 0.85rem;
         padding: 0.8rem;
+    }
+    .fundo-fotos h2{
+        margin-left:-35px;
     }
 
     .section h2 {

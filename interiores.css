@@ -170,7 +170,7 @@ header button:hover {
 
 .content h2{
     position: absolute;
-    color: rgba(0, 0, 0, 0.5); /* Define uma cor cinza com 50% de opacidade */
+    color: rgba(0, 0, 0, 0.479); /* Define uma cor cinza com 50% de opacidade */
     pointer-events: none; /* Desativa eventos de ponteiro, tornando o elemento não clicável */
     margin: 20px;
 }
@@ -180,6 +180,7 @@ header button:hover {
     color: rgb(0, 0, 0); /* Define a cor do parágrafo como um tom escuro */
     font-weight: 300; /* Define o peso da fonte como leve */
     margin-top: 4rem; /* Adiciona uma margem superior de 4rem para espaçamento */
+   
     
 }
 .content a {
@@ -215,11 +216,14 @@ header button:hover {
     border-left: 1px solid #000000 ;
 }
 
-.card h2 {
+.content h2 {
     font-size: 4rem;
     margin-bottom: 10px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.288);
+    z-index:1;
+    
 }
+
 
 .portifolio {
     background: linear-gradient(80deg, #e5fec5 8.33%, #c5fec6 100%);
